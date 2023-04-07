@@ -13,9 +13,9 @@ body {
 }
 
 body {
-	color: var(--color-white);
-	background: var(--color-dark-blue);
-	padding: var(--size-m);
+	color: var(--color-black);
+	background: var(--color-pale-yellow);
+	padding: var(--size-l);
 }
 
 a {
