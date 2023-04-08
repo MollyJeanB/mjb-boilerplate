@@ -1,10 +1,6 @@
 import Head from "next/head"
-import { Arimo } from "next/font/google"
-import styles from "@/styles/Home.module.css"
+import styles from "@/styles/page.module.css"
 import { GitHubLink, Header } from "@/components"
-
-//replace with google font of choice
-const arimo = Arimo({ subsets: ["latin"] })
 
 export default function Home() {
 	return (
@@ -15,11 +11,11 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={`${styles.main} ${arimo.className}`}>
+			<main className={styles.main}>
 				<Header
 					title={"🍽️ MJB Boilerplate"}
 					subTitle={
-						"React app quickstart with Next.js, TypeScript, CSS Modules, React Testing Library, and React Query"
+						"React app quick start with Next.js, TypeScript, CSS Modules, React Testing Library, and React Query"
 					}
 				/>
 				<footer className={styles.footer}>
