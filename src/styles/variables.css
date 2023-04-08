@@ -3,7 +3,10 @@
 	--color-dark-blue: #264653;
 	--color-aqua: #2a9d8f;
 	--color-yellow: #ffac32;
+	--color-pale-yellow: #f9d388;
 	--color-sunset: #e76f51;
+	--color-pale-pink: #ff8f8f;
+	--color-barbie: #ff3186;
 	--color-white: #fff;
 	--color-gray-1: #eee;
 	--color-gray-2: #ddd;
@@ -14,7 +17,7 @@
 	/* sizes */
 	--size-base: 3px;
 	--size-xxs: var(--size-base); /* 3px */
-	--size-xs: calc(var(--size-base) * var(--size-base)); /* 9px */
+	--size-xs: calc(var(--size-base) * 3); /* 9px */
 	--size-s: calc(var(--size-base) * 6); /* 18px */
 	--size-m: calc(var(--size-base) * 10); /* 30px */
 	--size-l: calc(var(--size-base) * 15); /* 45px */
@@ -29,6 +32,7 @@
 	--font-weight-bold: 700;
 	--font-weight-extra-bold: 800;
 	/* border-radius */
+	--border-radius-semi-rounded: var(--size-xs);
 	--border-radius-rounded: 25px;
 	--border-radius-circle: 100%;
 	/* media query */
