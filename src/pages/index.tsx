@@ -1,10 +1,10 @@
 import Head from "next/head"
-import { Quicksand } from "next/font/google"
+import { Arimo } from "next/font/google"
 import styles from "@/styles/Home.module.css"
 import { GitHubLink, Header } from "@/components"
 
 //replace with google font of choice
-const quicksand = Quicksand({ subsets: ["latin"] })
+const arimo = Arimo({ subsets: ["latin"] })
 
 export default function Home() {
 	return (
@@ -15,14 +15,14 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={`${styles.main} ${quicksand.className}`}>
+			<main className={`${styles.main} ${arimo.className}`}>
 				<Header
-					title={"MJB Boilerplate"}
+					title={"🍽️ MJB Boilerplate"}
 					subTitle={
 						"React app quickstart with Next.js, TypeScript, CSS Modules, React Testing Library, and React Query"
 					}
 				/>
-				<footer>
+				<footer className={styles.footer}>
 					<GitHubLink link={"https://github.com/MollyJeanB/mjb-boilerplate"} />
 				</footer>
 			</main>
