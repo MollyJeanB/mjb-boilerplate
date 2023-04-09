@@ -15,7 +15,7 @@ export default function Home() {
 				<Header
 					title={"🍽️ MJB Boilerplate"}
 					subTitle={
-						"React app quick start with Next.js, TypeScript, CSS Modules, React Testing Library, and React Query"
+						"React app quick start with Next.js, TypeScript, CSS Modules, and React Testing Library"
 					}
 				/>
 				<footer className={styles.footer}>

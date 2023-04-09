@@ -8,7 +8,8 @@
 		"start": "next start",
 		"lint": "next lint",
 		"format": "prettier --write .",
-		"test": "jest --coverage"
+		"test": "jest --coverage",
+		"unit": "jest --watch"
 	},
 	"dependencies": {
 		"@types/node": "18.15.11",
@@ -19,7 +20,6 @@
 		"next": "13.2.4",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-query": "3.39.3",
 		"typescript": "5.0.3"
 	},
 	"devDependencies": {
