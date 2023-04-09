@@ -1,19 +1,45 @@
+# 🍽️ MJB Boilerplate
+
+### Customized Next.js + TypeScript + CSS Modules + React Testing Library & Jest Quickstart
+
+- ⚡ Next.js 13
+- ⚛️ React 18
+- ✨ TypeScript
+- 🎨 CSS Modules
+- 🃏 Jest + React Testing Library
+- 💖 Prettier
+- Starter CSS theme variables, custom 404 page, and example components and test
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and inspired by Theodorus Clarence's [Next.js + TypeScript + Tailwind version](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/).
+
+## Getting Started
+
+### 1. Clone this template
+
 ```
 npx create-next-app -e https://github.com/MollyJeanB/mjb-boilerplate YOUR_APP_NAME
 ```
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### 2. Install dependencies
 
-## Getting Started
+Node Version Manager (NVM) is recommended to maintain node version consistency with dependencies. If you don't already have NVM set up on your computer, use [this guide](https://github.com/nvm-sh/nvm) to get started. To specify the node version in the `.nvmrc` file:
+
+```
+nvm use
+```
+
+Then install dependencies:
+
+```
+yarn install
+```
+
+### 3. Build out your app!
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
+```
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -24,7 +50,31 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Arimo. To change the global font, swap in any [Google Font](https://fonts.google.com/) in `src/pages/_app.tsx`.
+
+There are two pre-built example components with unit tests in `src/components`, an example page route at `src/pages/example.tsx`, and a custom 404 page at `src/pages/404.tsx`.
+
+Customize `src/styles/variables.css` with your own theme variables for use throughout the app.
+
+### 4. Test and format
+
+To run tests in watch mode:
+
+```
+yarn unit
+```
+
+And to run all tests once with coverage information:
+
+```
+yarn test
+```
+
+This project uses Prettier for code formatting. To format all files:
+
+```
+yarn format
+```
 
 ## Learn More
 
