@@ -8,9 +8,10 @@
 - 🎨 CSS Modules
 - 🃏 Jest + React Testing Library
 - 💖 Prettier
+- 🛄 SVGR webpack set-up and sample icons
 - Starter CSS theme variables, custom 404 page, and example components and test
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and inspired by Theodorus Clarence's [Next.js + TypeScript + Tailwind version](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) via 🍽️ [MJB Boilerplate](https://github.com/MollyJeanB/mjb-boilerplate).
 
 ## Getting Started
 
